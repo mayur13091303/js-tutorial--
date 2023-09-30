@@ -37,3 +37,22 @@ const myfunc=function (){
 
 
 console.log(typeof BIGNUMBER );
+
+// ******************************************************
+// Stack(Primitive), Heap(NOn-primitive) 
+
+let myytname = "Mayuresh"
+let anothername = myytname
+anothername = "Akanksha" 
+console.log(anothername);
+
+let user1 ={
+    email:"user@goggle.com",
+    upi:"user@oayoal"
+}
+
+let user2 = user1
+
+user2.email="mayuresh@google.com"
+
+console.log(user1.email);
